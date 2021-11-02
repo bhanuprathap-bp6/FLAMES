@@ -97,8 +97,7 @@
 
             // display result
             document.getElementById("result").innerHTML = result;
-            document.getElementById("res_inp").value = result;
-            document.getElementById("myForm").submit();
+           
         
             //display video 
             document.getElementById('f').style.display="none";
@@ -141,17 +140,12 @@
         <div class="inputname">
             <center><h2>FLAMES</h2>
             
-                
-                
-                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(valid){window.location='';}">
-                </iframe> 
-            <form id="myForm" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdzGgP-IzdFBLq3-DhHW_ZPiGyXQMOpKl9TqoeoD54iMpEpBg/formResponse"  method="POST" target="hidden_iframe" valid=True>
+            <form id="myForm" >
             <label>YOUR NAME : </label><br>
-            <input type="text" name="entry.1268124961" id="name1"><br><br>
+            <input type="text" name="" id="name1"><br><br>
             <label>YOUR PARTNER NAME : </label><br>
-            <input type="text" id="name2" name="entry.524205531"><br><br>
-            <input type="hidden" id="res_inp" name="entry.133892462">
-            <input type="hidden" id="id" name="entry.34161458" value="flames">
+            <input type="text" id="name2" name=""><br><br>
+            
             <input type="button" value="Check Your Relation" style="
             background: hotpink;
             border-radius: 10%;
